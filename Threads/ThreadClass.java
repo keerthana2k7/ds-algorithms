@@ -9,5 +9,6 @@ class ThreadClass extends Thread {
     public static void main(String[] args) {
         ThreadClass t = new ThreadClass();
         t.start();
+        t.start();
     }
 }
